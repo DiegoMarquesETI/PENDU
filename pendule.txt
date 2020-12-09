@@ -1,0 +1,6 @@
+Chien
+Vautour
+Tigre
+Aigle
+Leopard
+Renarde
