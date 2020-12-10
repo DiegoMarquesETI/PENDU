@@ -102,7 +102,7 @@ def VerificationLettre():#Fonction qui vérifie si la lettre saisie par l'utilis
         ListeLettresFausses(LettresFausses) 
 
 
-def Pendu():
+def Pendu():#Fonction qui va permettre de lancer le jeu du Pendu
     global Mot,LettresTrouver,LettresFausses,tentative
     AffichageMot(Mot,LettresTrouver)
     if tentative>0:
@@ -113,7 +113,7 @@ def Pendu():
     if tentative==0 and GagnerPartie(Mot,LettresTrouver)!=True :
        message.set("Vous avez perdu, retentez votre chance")
 
-def Rejouer():
+def Rejouer():#Fonction qui permet de relancer une autre partie
     global Mot,LettresTrouver,LettresFausses,tentative
     Mot=ChoixMot(MotsFichier)
     LettresTrouver=[Mot[0]]
