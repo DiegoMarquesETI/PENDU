@@ -14,7 +14,7 @@ def Tri(Liste):
    return len(Liste), Liste.lower()
 
 
-#Fonction qui ouvre le fichier et retourne un mot au hasard
+#Fonction qui ouvre le fichier et prend les mots qui vont constituer une liste
 
 
 
